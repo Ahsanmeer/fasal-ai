@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<!-- ════════════════════════════════════════
+     SEO: PRIMARY META TAGS
+     ════════════════════════════════════════ -->
+<title>فصل AI — فصل کی بیماری پہچانیں | AI زرعی تشخیص پاکستان</title>
+
+<meta name="description" content="فصل AI پاکستانی کسانوں کے لیے مفت AI بیماری تشخیص ٹول۔ گندم، کپاس، چاول کی بیماری فوری پہچانیں اور علاج پائیں۔ Crop disease detection AI for Pakistani farmers."/>
+
+<meta name="keywords" content="فصل کی بیماری, AI زراعت پاکستان, crop disease detection Pakistan, smart farming Pakistan, فصل تشخیص, زرعی AI, plant disease AI, فصل بیماری علاج, precision agriculture Pakistan, AI crop monitoring"/>
+
+<meta name="author" content="Fasal AI"/>
+<meta name="robots" content="index, follow"/>
+<meta name="language" content="Urdu"/>
+<meta name="geo.region" content="PK"/>
+<meta name="geo.country" content="Pakistan"/>
+<link rel="canonical" href="https://fasal.ai/"/>
+
+<!-- TECHNICAL SEO: FAVICON -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>"/>
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>"/>
+
+<!-- TECHNICAL SEO: PRECONNECT — loads fonts faster -->
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+
+<!-- ════════════════════════════════════════
+     SEO: OPEN GRAPH (WhatsApp, Facebook, LinkedIn)
+     ════════════════════════════════════════ -->
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://fasal.ai/"/>
+<meta property="og:title" content="فصل AI — فصل کی بیماری پہچانیں | AI زرعی تشخیص پاکستان"/>
+<meta property="og:description" content="پاکستانی کسانوں کے لیے مفت AI بیماری تشخیص۔ فصل کی تصویر لیں اور فوری تشخیص و علاج پائیں۔"/>
+<meta property="og:image" content="https://fasal.ai/og-image.jpg"/>
+<meta property="og:locale" content="ur_PK"/>
+<meta property="og:site_name" content="فصل AI"/>
+
+<!-- ════════════════════════════════════════
+     SEO: TWITTER / X CARD
+     ════════════════════════════════════════ -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="فصل AI — AI سے فصل کی بیماری پہچانیں"/>
+<meta name="twitter:description" content="پاکستانی کسانوں کے لیے مفت AI بیماری تشخیص ٹول۔ فوری تشخیص، اردو میں نتائج۔"/>
+<meta name="twitter:image" content="https://fasal.ai/og-image.jpg"/>
+
+<!-- ════════════════════════════════════════
+     SEO: SCHEMA MARKUP (Google Rich Results)
+     ════════════════════════════════════════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "فصل AI",
+  "alternateName": "Fasal AI",
+  "url": "https://fasal.ai",
+  "description": "AI-powered crop disease detection tool for Pakistani farmers. Upload a photo of your crop and get instant diagnosis and treatment in Urdu.",
+  "applicationCategory": "AgricultureApplication",
+  "operatingSystem": "Web Browser",
+  "inLanguage": ["ur", "en"],
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "PKR"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Farmers",
+    "geographicArea": {
+      "@type": "Country",
+      "name": "Pakistan"
+    }
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "Fasal AI",
+    "url": "https://fasal.ai"
+  },
+  "featureList": [
+    "AI crop disease detection",
+    "Urdu language support",
+    "Voice output in Urdu",
+    "Treatment recommendations",
+    "Supports wheat, cotton, rice and more"
+  ]
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600;700&display=swap&font-display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+:root{
+  --g0:#060F07;
+  --g1:#0A1F0E;
+  --g2:#0F2E14;
+  --g3:#1B5E27;
+  --g4:#2E8B45;
+  --g5:#4CAF65;
+  --gold:#D4A017;
+  --gold2:#F0C040;
+  --gold-pale:rgba(212,160,23,0.12);
+  --cream:#FAF6EE;
+  --soil:#1A0F06;
+  --red:#E53935;
+  --red-pale:rgba(229,57,53,0.12);
+  --amber:#F59F00;
+  --amber-pale:rgba(245,159,0,0.12);
+  --ok:#2E7D32;
+  --ok-pale:rgba(46,125,50,0.15);
+  --border:rgba(46,139,69,0.18);
+  --border-glow:rgba(46,139,69,0.45);
+  --card-bg:rgba(10,31,14,0.85);
+  --card-bg2:rgba(15,46,20,0.9);
+  --text:#E8F5E9;
+  --text-muted:#81A888;
+  --shadow-deep:0 24px 60px rgba(0,0,0,0.6),0 8px 20px rgba(0,0,0,0.4);
+  --shadow-card:0 16px 40px rgba(0,0,0,0.5),0 4px 12px rgba(0,0,0,0.3);
+  --glow-green:0 0 30px rgba(46,139,69,0.25);
+  --glow-gold:0 0 20px rgba(212,160,23,0.3);
+}
+
+body{
+  font-family:'Noto Nastaliq Urdu',serif;
+  background:var(--g0);
+  color:var(--text);
+  min-height:100vh;
+  direction:rtl;
+  overflow-x:hidden;
+}
+
+/* ── BACKGROUND ATMOSPHERE ── */
+.bg-layer{
+  position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:
+    radial-gradient(ellipse 80% 60% at 20% 0%,rgba(27,94,39,0.35) 0%,transparent 70%),
+    radial-gradient(ellipse 50% 40% at 80% 100%,rgba(212,160,23,0.08) 0%,transparent 60%),
+    radial-gradient(ellipse 60% 50% at 50% 50%,rgba(10,31,14,0.8) 0%,transparent 100%);
+}
+.bg-grid{
+  position:fixed;inset:0;z-index:0;pointer-events:none;
+  background-image:
+    linear-gradient(rgba(46,139,69,0.04) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(46,139,69,0.04) 1px,transparent 1px);
+  background-size:40px 40px;
+}
+.bg-noise{
+  position:fixed;inset:0;z-index:0;pointer-events:none;opacity:0.03;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size:200px 200px;
+}
+
+/* floating particles */
+.particles{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.particle{
+  position:absolute;width:2px;height:2px;border-radius:50%;
+  background:var(--g5);opacity:0;
+  animation:floatUp linear infinite;
+}
+@keyframes floatUp{
+  0%{transform:translateY(100vh) translateX(0);opacity:0}
+  10%{opacity:0.6}
+  90%{opacity:0.3}
+  100%{transform:translateY(-20px) translateX(30px);opacity:0}
+}
+
+/* ── HEADER ── */
+header{
+  position:sticky;top:0;z-index:100;
+  background:rgba(6,15,7,0.92);
+  backdrop-filter:blur(20px);
+  border-bottom:1px solid rgba(212,160,23,0.25);
+  padding:0 2rem;
+  height:72px;
+  display:flex;align-items:center;justify-content:space-between;
+  box-shadow:0 4px 30px rgba(0,0,0,0.5);
+}
+.logo{display:flex;align-items:center;gap:12px;flex-direction:row-reverse}
+.logo-3d{
+  width:46px;height:46px;
+  background:linear-gradient(135deg,var(--g3),var(--g4));
+  border-radius:14px;border:1px solid rgba(212,160,23,0.3);
+  display:flex;align-items:center;justify-content:center;font-size:22px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.4),inset 0 1px 0 rgba(255,255,255,0.1),var(--glow-green);
+  transform:perspective(200px) rotateX(5deg);
+}
+.logo-text{font-family:'DM Serif Display',serif;color:var(--cream);font-size:1.6rem;letter-spacing:-0.5px}
+.logo-text em{color:var(--gold);font-style:normal}
+
+.header-right{display:flex;align-items:center;gap:10px}
+
+/* voice indicator in header */
+.voice-status-pill{
+  display:flex;align-items:center;gap:7px;
+  padding:6px 14px;border-radius:20px;
+  border:1px solid var(--border);
+  background:rgba(46,139,69,0.08);
+  font-size:11px;color:var(--text-muted);font-family:'DM Sans',sans-serif;
+  transition:all 0.3s;cursor:pointer;
+}
+.voice-status-pill:hover{border-color:var(--border-glow);background:rgba(46,139,69,0.15)}
+.voice-dot{width:7px;height:7px;border-radius:50%;background:var(--text-muted);transition:all 0.3s}
+.voice-status-pill.ready .voice-dot{background:#4CAF50;box-shadow:0 0 6px #4CAF50}
+.voice-status-pill.speaking .voice-dot{background:var(--gold);box-shadow:0 0 8px var(--gold);animation:dotPulse 0.6s ease-in-out infinite}
+@keyframes dotPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.4)}}
+
+.autospeak-label{
+  display:flex;align-items:center;gap:7px;
+  background:rgba(46,139,69,0.08);border:1px solid var(--border);
+  border-radius:20px;padding:6px 14px;cursor:pointer;transition:all 0.2s;
+}
+.autospeak-label:hover{background:rgba(46,139,69,0.15)}
+.toggle-track{
+  width:34px;height:18px;background:rgba(255,255,255,0.1);
+  border-radius:9px;position:relative;transition:background 0.25s;
+}
+.toggle-track::after{
+  content:'';position:absolute;top:2px;right:2px;
+  width:14px;height:14px;border-radius:50%;background:#fff;
+  transition:transform 0.25s,background 0.25s;
+}
+.autospeak-label.on .toggle-track{background:var(--g4)}
+.autospeak-label.on .toggle-track::after{transform:translateX(-16px);background:var(--gold)}
+.toggle-lbl{font-size:11px;color:var(--text-muted);font-family:'DM Sans',sans-serif;white-space:nowrap}
+
+.flag-chip{
+  display:flex;align-items:center;gap:7px;
+  background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);
+  padding:6px 14px;border-radius:20px;
+}
+.flag-chip span{font-size:18px}
+.flag-chip p{font-size:11px;color:rgba(255,255,255,0.6);font-family:'DM Sans',sans-serif}
+
+/* ── SPEAKING BAR ── */
+#speakBar{
+  display:none;position:fixed;bottom:0;left:0;right:0;z-index:200;
+  background:linear-gradient(135deg,rgba(10,31,14,0.98),rgba(15,46,20,0.98));
+  backdrop-filter:blur(20px);
+  border-top:2px solid var(--gold);
+  padding:14px 2rem;
+  flex-direction:row-reverse;align-items:center;gap:16px;
+  animation:barUp 0.3s cubic-bezier(0.34,1.56,0.64,1);
+}
+#speakBar.show{display:flex}
+@keyframes barUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
+
+.waves{display:flex;align-items:center;gap:3px}
+.wv{width:3px;background:var(--gold);border-radius:2px;animation:wvAnim 0.7s ease-in-out infinite}
+.wv:nth-child(1){height:6px;animation-delay:0s}
+.wv:nth-child(2){height:16px;animation-delay:0.1s}
+.wv:nth-child(3){height:10px;animation-delay:0.2s}
+.wv:nth-child(4){height:20px;animation-delay:0.13s}
+.wv:nth-child(5){height:8px;animation-delay:0.07s}
+@keyframes wvAnim{0%,100%{transform:scaleY(0.3);opacity:0.5}50%{transform:scaleY(1);opacity:1}}
+
+.bar-text{flex:1;font-size:0.88rem;color:var(--cream);text-align:right}
+.bar-stop{
+  padding:7px 18px;border-radius:20px;border:none;cursor:pointer;
+  background:rgba(229,57,53,0.15);color:#EF9A9A;
+  border:1px solid rgba(229,57,53,0.3);
+  font-family:'Noto Nastaliq Urdu',serif;font-size:0.82rem;transition:all 0.2s;
+}
+.bar-stop:hover{background:rgba(229,57,53,0.25)}
+
+/* ── API KEY BAR ── */
+.api-bar{
+  position:relative;z-index:10;
+  background:rgba(10,31,14,0.95);
+  border-bottom:1px solid rgba(212,160,23,0.2);
+  padding:10px 2rem;
+  display:flex;align-items:center;justify-content:center;gap:12px;
+  flex-wrap:wrap;
+}
+.api-bar label{font-family:'DM Sans',sans-serif;font-size:12px;color:var(--text-muted);white-space:nowrap}
+.api-input{
+  flex:1;max-width:380px;min-width:220px;
+  background:rgba(255,255,255,0.05);border:1px solid var(--border);
+  border-radius:10px;padding:7px 12px;
+  font-family:'DM Sans',sans-serif;font-size:13px;color:var(--cream);
+  outline:none;transition:border 0.2s;
+}
+.api-input:focus{border-color:var(--border-glow)}
+.api-save{
+  padding:7px 18px;border-radius:10px;border:none;cursor:pointer;
+  background:linear-gradient(135deg,var(--g3),var(--g4));
+  color:var(--cream);font-family:'DM Sans',sans-serif;font-size:13px;
+  transition:opacity 0.2s;
+}
+.api-save:hover{opacity:0.85}
+.api-ok{font-size:11px;color:#4CAF65;font-family:'DM Sans',sans-serif;display:none}
+
+/* ── HERO ── */
+.hero{
+  position:relative;z-index:1;
+  padding:5rem 2rem 4rem;text-align:center;
+  border-bottom:1px solid rgba(212,160,23,0.12);
+  overflow:hidden;
+}
+.hero::before{
+  content:'';position:absolute;top:-50%;left:50%;transform:translateX(-50%);
+  width:600px;height:600px;border-radius:50%;pointer-events:none;
+  background:radial-gradient(circle,rgba(27,94,39,0.2) 0%,transparent 70%);
+}
+.hero-tag{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--gold-pale);border:1px solid rgba(212,160,23,0.3);
+  border-radius:20px;padding:5px 16px;margin-bottom:1.5rem;
+  font-size:0.78rem;color:var(--gold);font-family:'DM Sans',sans-serif;font-weight:500;
+  animation:fadeDown 0.6s ease both;
+}
+@keyframes fadeDown{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}
+
+.hero h1{
+  font-family:'DM Serif Display',serif;
+  font-size:3rem;font-weight:400;line-height:1.25;
+  color:var(--cream);margin-bottom:0.5rem;
+  animation:fadeUp 0.7s ease 0.1s both;
+}
+.hero h1 em{color:var(--gold);font-style:italic}
+.hero-urdu{
+  font-family:'Noto Nastaliq Urdu',serif;
+  font-size:1.4rem;color:rgba(212,160,23,0.8);
+  margin-bottom:1rem;line-height:2;
+  animation:fadeUp 0.7s ease 0.15s both;
+}
+.hero p{
+  color:var(--text-muted);font-size:0.95rem;max-width:480px;
+  margin:0 auto 2rem;line-height:2.2;
+  animation:fadeUp 0.7s ease 0.2s both;
+}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+
+.stats-row{
+  display:flex;justify-content:center;align-items:center;gap:0;
+  flex-direction:row-reverse;
+  animation:fadeUp 0.7s ease 0.3s both;
+}
+.stat{
+  text-align:center;padding:0 2.5rem;
+  border-left:1px solid rgba(46,139,69,0.2);
+}
+.stat:last-child{border-left:none}
+.stat-num{font-family:'DM Sans',sans-serif;font-size:1.8rem;font-weight:700;color:var(--gold);line-height:1}
+.stat-lbl{font-size:0.78rem;color:var(--text-muted);margin-top:4px}
+
+.voice-ribbon{
+  display:inline-flex;align-items:center;gap:10px;
+  background:rgba(21,101,192,0.1);border:1px solid rgba(21,101,192,0.25);
+  border-radius:24px;padding:8px 20px;margin-top:2rem;
+  font-size:0.82rem;color:#90CAF9;
+  animation:fadeUp 0.7s ease 0.4s both;
+}
+
+/* ── MAIN ── */
+.main{
+  position:relative;z-index:1;
+  max-width:1040px;margin:3rem auto;
+  padding:0 1.5rem 120px;
+  display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;
+  align-items:start;
+}
+
+/* ── 3D CARD BASE ── */
+.card-3d{
+  background:var(--card-bg);
+  border-radius:20px;
+  border:1px solid var(--border);
+  box-shadow:var(--shadow-card);
+  overflow:hidden;
+  transition:box-shadow 0.15s,transform 0.15s;
+  transform-style:preserve-3d;
+  will-change:transform;
+  backdrop-filter:blur(16px);
+  position:relative;
+}
+.card-3d::before{
+  content:'';position:absolute;inset:0;border-radius:20px;pointer-events:none;
+  background:linear-gradient(135deg,rgba(255,255,255,0.04) 0%,transparent 60%);
+  z-index:1;
+}
+.card-3d::after{
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(212,160,23,0.4),transparent);
+  pointer-events:none;
+}
+
+.card-header{
+  padding:1.1rem 1.5rem;
+  border-bottom:1px solid var(--border);
+  display:flex;align-items:center;gap:10px;flex-direction:row-reverse;
+  background:rgba(0,0,0,0.15);
+}
+.ch-icon{
+  width:32px;height:32px;border-radius:10px;
+  background:linear-gradient(135deg,var(--g2),var(--g3));
+  border:1px solid rgba(46,139,69,0.3);
+  display:flex;align-items:center;justify-content:center;font-size:15px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.3);
+}
+.card-title{font-size:1rem;font-weight:600;color:var(--cream)}
+.card-body{padding:1.4rem}
+
+/* ── DROPZONE ── */
+.dropzone{
+  border:2px dashed rgba(46,139,69,0.3);border-radius:14px;
+  padding:2.5rem 1.5rem;text-align:center;cursor:pointer;
+  transition:all 0.25s;background:rgba(46,139,69,0.04);position:relative;
+}
+.dropzone:hover,.dropzone.drag-over{
+  border-color:var(--g4);background:rgba(46,139,69,0.08);
+  box-shadow:0 0 0 4px rgba(46,139,69,0.08),var(--glow-green);
+}
+.dropzone input[type=file]{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+.dz-icon{font-size:2.8rem;margin-bottom:0.75rem;filter:drop-shadow(0 4px 8px rgba(0,0,0,0.4))}
+.dz-label{font-size:0.88rem;color:var(--text-muted);line-height:2.2}
+.dz-label strong{color:var(--g5)}
+
+/* Camera row */
+.capture-row{display:flex;gap:8px;margin-top:0.75rem;flex-direction:row-reverse}
+.btn-cam{
+  flex:1;padding:10px;border-radius:10px;cursor:pointer;
+  background:rgba(212,160,23,0.06);border:1px dashed rgba(212,160,23,0.25);
+  font-family:'Noto Nastaliq Urdu',serif;font-size:0.85rem;color:var(--gold);
+  display:flex;align-items:center;justify-content:center;gap:6px;transition:all 0.2s;
+}
+.btn-cam:hover{background:rgba(212,160,23,0.12);border-color:rgba(212,160,23,0.5)}
+.btn-cam input{display:none}
+
+/* Preview */
+.preview-area{display:none}
+.preview-area.show{display:block}
+.preview-img{
+  width:100%;border-radius:12px;max-height:260px;
+  object-fit:cover;display:block;
+  border:1px solid var(--border);
+  box-shadow:0 8px 30px rgba(0,0,0,0.4);
+}
+.preview-actions{display:flex;gap:8px;margin-top:0.75rem;flex-direction:row-reverse}
+
+/* ── BUTTONS ── */
+.btn{
+  flex:1;padding:12px 18px;border-radius:12px;
+  font-family:'Noto Nastaliq Urdu',serif;font-size:0.9rem;font-weight:600;
+  cursor:pointer;border:none;transition:all 0.2s;
+}
+.btn-primary{
+  background:linear-gradient(135deg,var(--g3),var(--g4));color:var(--cream);
+  border:1px solid rgba(46,139,69,0.4);
+  box-shadow:0 4px 15px rgba(0,0,0,0.3),0 0 0 0 rgba(46,139,69,0.4);
+}
+.btn-primary:hover:not(:disabled){
+  background:linear-gradient(135deg,var(--g4),var(--g5));
+  box-shadow:0 6px 20px rgba(0,0,0,0.4),var(--glow-green);
+  transform:translateY(-1px);
+}
+.btn-primary:disabled{opacity:0.4;cursor:not-allowed}
+.btn-primary.loading{opacity:1;cursor:wait}
+.btn-ghost{
+  background:rgba(255,255,255,0.04);color:var(--text-muted);
+  border:1px solid var(--border);
+}
+.btn-ghost:hover{background:rgba(255,255,255,0.08);color:var(--text)}
+
+.spinner{
+  display:inline-block;width:14px;height:14px;
+  border:2px solid rgba(255,255,255,0.25);border-top-color:#fff;
+  border-radius:50%;animation:spin 0.7s linear infinite;
+  margin-left:6px;vertical-align:-2px;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ── CROP SELECT + MIC ── */
+.crop-wrap{margin-bottom:1.1rem}
+.crop-wrap label{
+  display:block;font-size:0.82rem;font-weight:600;
+  color:var(--text-muted);margin-bottom:7px;
+}
+.crop-row{display:flex;gap:8px;align-items:center;flex-direction:row-reverse}
+.crop-row select{
+  flex:1;padding:11px 14px;border-radius:12px;
+  border:1px solid var(--border);background:rgba(0,0,0,0.3);
+  font-family:'Noto Nastaliq Urdu',serif;font-size:0.9rem;
+  color:var(--text);appearance:none;cursor:pointer;outline:none;direction:rtl;
+  transition:border-color 0.2s;
+}
+.crop-row select:focus{border-color:var(--g4);box-shadow:0 0 0 3px rgba(46,139,69,0.12)}
+.crop-row select option{background:#0A1F0E}
+
+.mic-btn{
+  width:44px;height:44px;border-radius:12px;border:1px solid var(--border);
+  background:rgba(46,139,69,0.08);color:var(--g5);
+  cursor:pointer;font-size:18px;
+  display:flex;align-items:center;justify-content:center;
+  transition:all 0.2s;flex-shrink:0;
+}
+.mic-btn:hover{background:rgba(46,139,69,0.15);border-color:var(--border-glow)}
+.mic-btn.listening{
+  background:rgba(229,57,53,0.15);color:#EF9A9A;border-color:rgba(229,57,53,0.4);
+  animation:micRing 1s ease-in-out infinite;
+}
+@keyframes micRing{0%,100%{box-shadow:0 0 0 0 rgba(229,57,53,0.3)}50%{box-shadow:0 0 0 8px rgba(229,57,53,0)}}
+
+.mic-msg{
+  font-size:0.78rem;margin-top:5px;text-align:right;
+  min-height:16px;transition:all 0.3s;
+}
+
+/* Voice test box */
+.voice-test-box{
+  margin-top:1rem;padding:0.85rem 1rem;border-radius:12px;
+  background:rgba(21,101,192,0.06);border:1px solid rgba(21,101,192,0.2);
+  display:flex;align-items:center;gap:10px;flex-direction:row-reverse;
+}
+.vt-info{flex:1;text-align:right}
+.vt-name{font-size:0.8rem;color:#90CAF9;font-family:'DM Sans',sans-serif}
+.vt-sub{font-size:0.72rem;color:rgba(144,202,249,0.6);margin-top:2px;font-family:'DM Sans',sans-serif}
+.vt-btn{
+  padding:6px 14px;border-radius:20px;border:none;cursor:pointer;
+  background:rgba(21,101,192,0.2);color:#90CAF9;
+  font-family:'Noto Nastaliq Urdu',serif;font-size:0.78rem;
+  border:1px solid rgba(21,101,192,0.3);transition:all 0.2s;white-space:nowrap;
+}
+.vt-btn:hover{background:rgba(21,101,192,0.35)}
+
+/* ── TIPS ── */
+.tip-list{list-style:none}
+.tip-list li{
+  display:flex;align-items:flex-start;gap:8px;flex-direction:row-reverse;
+  font-size:0.83rem;color:var(--text-muted);line-height:2.2;
+  padding:5px 0;border-bottom:1px solid rgba(46,139,69,0.08);
+}
+.tip-list li:last-child{border:none}
+.tdot{
+  width:6px;height:6px;border-radius:50%;
+  background:var(--g4);margin-top:11px;flex-shrink:0;
+  box-shadow:0 0 4px rgba(46,139,69,0.5);
+}
+
+/* ── RESULTS PANEL ── */
+.results-panel{display:flex;flex-direction:column;gap:1.2rem}
+
+.empty-state{
+  background:var(--card-bg);border:1px solid var(--border);
+  border-radius:20px;box-shadow:var(--shadow-card);
+  padding:3.5rem 1.5rem;text-align:center;
+  backdrop-filter:blur(16px);
+}
+.empty-icon{font-size:3rem;margin-bottom:1rem;opacity:0.35;
+  filter:drop-shadow(0 4px 12px rgba(0,0,0,0.4))}
+.empty-title{font-size:1.1rem;color:var(--g5);margin-bottom:0.5rem;opacity:0.8}
+.empty-sub{font-size:0.83rem;color:var(--text-muted);line-height:2.2}
+
+/* ── DISEASE CARD ── */
+.disease-card{
+  background:var(--card-bg);border-radius:20px;
+  border:1px solid var(--border);box-shadow:var(--shadow-deep);
+  overflow:hidden;
+  animation:cardIn 0.5s cubic-bezier(0.34,1.2,0.64,1) both;
+  transform-style:preserve-3d;
+  backdrop-filter:blur(20px);
+  position:relative;
+}
+.disease-card::after{
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(212,160,23,0.5),transparent);
+  pointer-events:none;
+}
+@keyframes cardIn{
+  from{opacity:0;transform:translateY(20px) scale(0.97)}
+  to{opacity:1;transform:translateY(0) scale(1)}
+}
+
+/* Voice action bar at top of result */
+.vab{
+  padding:0.85rem 1.5rem;
+  background:rgba(21,101,192,0.07);
+  border-bottom:1px solid rgba(21,101,192,0.15);
+  display:flex;align-items:center;gap:10px;flex-direction:row-reverse;
+}
+.vab-label{flex:1;font-size:0.8rem;color:#90CAF9;text-align:right}
+.vab-btn{
+  display:flex;align-items:center;gap:6px;
+  padding:7px 16px;border-radius:20px;border:none;cursor:pointer;
+  font-family:'Noto Nastaliq Urdu',serif;font-size:0.8rem;font-weight:600;
+  background:rgba(21,101,192,0.25);color:#90CAF9;
+  border:1px solid rgba(21,101,192,0.3);transition:all 0.2s;
+}
+.vab-btn:hover{background:rgba(21,101,192,0.4)}
+.vab-btn.speaking{background:#1565C0;color:#fff;border-color:#1976D2}
+
+/* Banner */
+.disease-banner{
+  padding:1.3rem 1.5rem;
+  display:flex;align-items:center;gap:12px;flex-direction:row-reverse;
+}
+.disease-banner.severe{background:linear-gradient(135deg,rgba(183,28,28,0.15),rgba(229,57,53,0.08));border-bottom:1px solid rgba(229,57,53,0.2)}
+.disease-banner.moderate{background:linear-gradient(135deg,rgba(230,119,0,0.12),rgba(245,159,0,0.06));border-bottom:1px solid rgba(245,159,0,0.2)}
+.disease-banner.mild,.disease-banner.healthy{background:linear-gradient(135deg,rgba(27,94,39,0.2),rgba(46,125,50,0.08));border-bottom:1px solid rgba(46,139,69,0.2)}
+
+.sev-badge{
+  padding:5px 14px;border-radius:20px;
+  font-family:'DM Sans',sans-serif;font-size:10px;font-weight:700;
+  text-transform:uppercase;letter-spacing:0.8px;flex-shrink:0;
+}
+.severe .sev-badge{background:var(--red);color:#fff;box-shadow:0 2px 10px rgba(229,57,53,0.4)}
+.moderate .sev-badge{background:var(--amber);color:#fff;box-shadow:0 2px 10px rgba(245,159,0,0.4)}
+.mild .sev-badge,.healthy .sev-badge{background:var(--ok);color:#fff;box-shadow:0 2px 10px rgba(46,125,50,0.4)}
+
+.dname-block{flex:1;text-align:right}
+.dname{font-size:1.2rem;font-weight:700;line-height:1.4}
+.severe .dname{color:#EF9A9A}
+.moderate .dname{color:#FFD54F}
+.mild .dname,.healthy .dname{color:#A5D6A7}
+.dsci{font-size:11px;color:var(--text-muted);margin-top:3px;font-family:'DM Sans',sans-serif;font-style:italic}
+
+/* Confidence */
+.conf-wrap{
+  padding:0.9rem 1.5rem;border-bottom:1px solid var(--border);
+  background:rgba(0,0,0,0.15);
+}
+.conf-row{
+  display:flex;justify-content:space-between;flex-direction:row-reverse;
+  font-size:11px;color:var(--text-muted);margin-bottom:7px;
+  font-family:'DM Sans',sans-serif;font-weight:500;
+}
+.conf-bg{height:5px;background:rgba(255,255,255,0.07);border-radius:3px;overflow:hidden}
+.conf-fill{height:100%;border-radius:3px;transition:width 0.8s cubic-bezier(0.34,1.2,0.64,1)}
+.severe .conf-fill{background:linear-gradient(90deg,#B71C1C,var(--red))}
+.moderate .conf-fill{background:linear-gradient(90deg,#E65100,var(--amber))}
+.mild .conf-fill,.healthy .conf-fill{background:linear-gradient(90deg,#1B5E20,var(--ok))}
+
+/* Sections */
+.rs{padding:1rem 1.5rem;border-bottom:1px solid var(--border);text-align:right}
+.rs:last-child{border:none}
+.rs-lbl{
+  font-size:0.8rem;font-weight:600;color:var(--g5);
+  margin-bottom:6px;display:flex;align-items:center;gap:7px;flex-direction:row-reverse;
+}
+.rs-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
+.rs-txt{font-size:0.88rem;color:var(--text);line-height:2.2}
+
+.sym-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px;flex-direction:row-reverse}
+.sym-tag{
+  padding:4px 12px;border-radius:20px;font-size:0.8rem;font-weight:500;border:1px solid;
+}
+.sym-tag.severe{background:var(--red-pale);color:#EF9A9A;border-color:rgba(229,57,53,0.25)}
+.sym-tag.moderate{background:var(--amber-pale);color:#FFD54F;border-color:rgba(245,159,0,0.25)}
+.sym-tag.mild,.sym-tag.healthy{background:var(--ok-pale);color:#A5D6A7;border-color:rgba(46,125,50,0.25)}
+
+.treat-list{list-style:none}
+.treat-list li{
+  display:flex;gap:10px;flex-direction:row-reverse;
+  font-size:0.86rem;color:var(--text);line-height:2.2;
+  padding:6px 0;border-bottom:1px solid rgba(46,139,69,0.08);text-align:right;
+}
+.treat-list li:last-child{border:none}
+.step-num{
+  width:22px;height:22px;border-radius:50%;flex-shrink:0;margin-top:6px;
+  background:linear-gradient(135deg,var(--g2),var(--g3));
+  border:1px solid rgba(46,139,69,0.3);
+  color:var(--g5);font-family:'DM Sans',sans-serif;font-size:10px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;
+}
+
+.error-box{
+  background:var(--red-pale);border:1px solid rgba(229,57,53,0.25);
+  border-radius:14px;padding:1.1rem 1.3rem;
+  font-size:0.87rem;color:#EF9A9A;line-height:2.2;text-align:right;
+}
+
+.loading-card{
+  background:var(--card-bg);border:1px solid var(--border);
+  border-radius:20px;box-shadow:var(--shadow-card);
+  padding:3.5rem 1.5rem;text-align:center;
+  backdrop-filter:blur(16px);
+  animation:breathe 1.8s ease-in-out infinite;
+}
+@keyframes breathe{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.7;transform:scale(0.99)}}
+.loading-icon{font-size:2.8rem;margin-bottom:0.85rem;animation:rotateSlow 3s linear infinite}
+@keyframes rotateSlow{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+.loading-text{font-size:1rem;color:var(--g5);margin-bottom:0.4rem;font-weight:600}
+.loading-sub{font-size:0.82rem;color:var(--text-muted);line-height:2.2}
+
+.disc{
+  background:rgba(212,160,23,0.05);border:1px solid rgba(212,160,23,0.15);
+  border-radius:14px;padding:0.9rem 1.2rem;text-align:right;
+}
+.disc p{font-size:0.8rem;color:rgba(212,160,23,0.6);line-height:2.2}
+
+@media(max-width:700px){
+  .main{grid-template-columns:1fr}
+  .hero h1{font-size:2rem}
+  .stats-row{gap:0}
+  .stat{padding:0 1.2rem}
+  .autospeak-label .toggle-lbl{display:none}
+  header{padding:0 1rem}
+}
+</style>
+</head>
+<body>
+
+<!-- ATMOSPHERE -->
+<div class="bg-layer"></div>
+<div class="bg-grid"></div>
+<div class="bg-noise"></div>
+
+<!-- API KEY BAR -->
+<div class="api-bar">
+  <label>🔑 Anthropic API Key:</label>
+  <input class="api-input" id="apiKeyInput" type="password" placeholder="sk-ant-..." />
+  <button class="api-save" onclick="saveKey()">محفوظ کریں</button>
+  <span class="api-ok" id="apiOk">✅ Key محفوظ ہو گئی</span>
+</div>
+<div class="particles" id="particles"></div>
+
+<!-- SPEAKING BAR -->
+<div id="speakBar">
+  <div class="waves"><div class="wv"></div><div class="wv"></div><div class="wv"></div><div class="wv"></div><div class="wv"></div></div>
+  <div class="bar-text" id="barText">🔊 آواز چل رہی ہے...</div>
+  <button class="bar-stop" onclick="stopSpeech()">⏹ بند کریں</button>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">
+    <div class="logo-3d">🌿</div>
+    <div class="logo-text">فصل <em>AI</em></div>
+  </div>
+  <div class="header-right">
+    <div class="voice-status-pill" id="voiceStatusPill" onclick="testVoice()">
+      <div class="voice-dot" id="voiceDot"></div>
+      <span id="voiceStatusText" style="font-family:'DM Sans',sans-serif;font-size:11px">آواز لوڈ ہو رہی ہے...</span>
+    </div>
+    <label class="autospeak-label" id="autoLabel">
+      <input type="checkbox" id="autoCheck" style="display:none"/>
+      <div class="toggle-track"></div>
+      <span class="toggle-lbl">خودکار آواز</span>
+    </label>
+    <div class="flag-chip"><span>🇵🇰</span><p>پاکستانی کسانوں کے لیے</p></div>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-tag">🤖 مصنوعی ذہانت · زرعی ماہر</div>
+  <!-- SEO: H1 now includes primary keywords — brand + purpose + audience -->
+  <h1>فصل <em>AI</em> — پاکستانی کسانوں کا زرعی ساتھی</h1>
+  <!-- SEO: H2 contains secondary keyword phrase for crop disease detection -->
+  <h2 class="hero-urdu">فصل کی بیماری فوری پہچانیں — مفت AI تشخیص</h2>
+  <p>تصویر اپلوڈ کریں — AI بیماری کا نام، نقصان اور علاج بتائے گا<br>پڑھنا نہیں آتا؟ نتیجہ آواز میں سنیں 🔊</p>
+  <div class="stats-row">
+    <div class="stat"><div class="stat-num">50+</div><div class="stat-lbl">بیماریاں</div></div>
+    <div class="stat"><div class="stat-num">30+</div><div class="stat-lbl">فصلیں</div></div>
+    <div class="stat"><div class="stat-num">مفت</div><div class="stat-lbl">بالکل مفت</div></div>
+  </div>
+  <div class="voice-ribbon">🔊 پڑھنا نہیں آتا؟ — نتیجہ آواز میں سنیں · 🎤 فصل کا نام بولیں</div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+  <!-- RIGHT: Upload -->
+  <div>
+    <div class="card-3d" id="uploadCard">
+      <div class="card-header">
+        <div class="ch-icon">📷</div>
+        <div class="card-title">فصل کی تصویر اپلوڈ کریں</div>
+      </div>
+      <div class="card-body">
+
+        <!-- Crop + mic -->
+        <div class="crop-wrap">
+          <label>فصل کی قسم — منتخب کریں یا 🎤 بول کر بتائیں</label>
+          <div class="crop-row">
+            <select id="cropType">
+              <option value="">— خودکار پہچان —</option>
+              <option value="گندم">گندم</option>
+              <option value="چاول">چاول</option>
+              <option value="مکئی">مکئی</option>
+              <option value="کپاس">کپاس</option>
+              <option value="ٹماٹر">ٹماٹر</option>
+              <option value="آلو">آلو</option>
+              <option value="گنا">گنا</option>
+              <option value="سرسوں">سرسوں</option>
+              <option value="چنا">چنا</option>
+              <option value="پیاز">پیاز</option>
+              <option value="آم">آم</option>
+              <option value="کیلا">کیلا</option>
+              <option value="مرچ">مرچ</option>
+            </select>
+            <button class="mic-btn" id="micBtn">🎤</button>
+          </div>
+          <div class="mic-msg" id="micMsg"></div>
+        </div>
+
+        <!-- Voice test info -->
+        <div class="voice-test-box">
+          <div class="vt-info">
+            <div class="vt-name" id="vtName">🔊 آواز کی جانچ کریں</div>
+            <div class="vt-sub" id="vtSub">نتیجہ آواز میں سننے کے لیے یہاں کلک کریں</div>
+          </div>
+          <button class="vt-btn" onclick="testVoice()">آزمائیں ▶</button>
+        </div>
+
+        <!-- Dropzone -->
+        <div class="dropzone" id="dropzone" style="margin-top:1rem">
+          <input type="file" id="fileInput" accept="image/*"/>
+          <div class="dz-icon">🖼️</div>
+          <div class="dz-label"><strong>یہاں تصویر ڈالیں</strong> یا کلک کریں<br>JPG، PNG — موبائل سے بھی چل سکتا ہے</div>
+        </div>
+
+        <div class="capture-row" id="captureRow">
+          <label class="btn-cam">
+            📸 کیمرہ سے تصویر لیں
+            <input type="file" accept="image/*" capture="environment" id="camInput"/>
+          </label>
+        </div>
+
+        <div class="preview-area" id="previewArea">
+          <img src="" alt="کسان کی فصل کی تصویر — AI بیماری تشخیص کے لیے" class="preview-img" id="previewImg"/>
+          <div class="preview-actions">
+            <button class="btn btn-ghost" id="retakeBtn">🔄 دوبارہ</button>
+            <button class="btn btn-primary" id="analyzeBtn">🔬 بیماری پہچانیں</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-3d" id="tipsCard" style="margin-top:1.2rem">
+      <div class="card-header">
+        <div class="ch-icon">💡</div>
+        <div class="card-title">بہترین نتیجے کے لیے</div>
+      </div>
+      <div class="card-body" style="padding-top:0.75rem;padding-bottom:0.75rem">
+        <ul class="tip-list">
+          <li><div class="tdot"></div>پتے، تنے یا پھل کی واضح تصویر لیں</li>
+          <li><div class="tdot"></div>دھوپ یا روشنی میں تصویر لیں</li>
+          <li><div class="tdot"></div>بیمار اور صحیح حصہ دونوں دکھائیں</li>
+          <li><div class="tdot"></div>قریب سے — دھندلی نہ ہو</li>
+          <li><div class="tdot"></div>🔊 نتیجہ آنے پر "سنیں" بٹن دبائیں</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- LEFT: Results -->
+  <div class="results-panel" id="resultsPanel">
+    <div class="empty-state">
+      <div class="empty-icon">🌾</div>
+      <div class="empty-title">تصویر کا انتظار ہے</div>
+      <p class="empty-sub">اپنی فصل کی تصویر اپلوڈ کریں<br>AI فوری تشخیص کرے گا<br><br>🔊 نتیجہ آواز میں بھی سن سکتے ہیں</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════
+//  PARTICLES
+// ═══════════════════════════════════════════════════════
+(function(){
+  const c=document.getElementById('particles');
+  for(let i=0;i<18;i++){
+    const p=document.createElement('div');
+    p.className='particle';
+    p.style.left=Math.random()*100+'%';
+    p.style.width=p.style.height=(Math.random()*2+1)+'px';
+    p.style.animationDuration=(Math.random()*15+10)+'s';
+    p.style.animationDelay=(Math.random()*10)+'s';
+    p.style.opacity=Math.random()*0.4+0.1;
+    c.appendChild(p);
+  }
+})();
+
+// ═══════════════════════════════════════════════════════
+//  3D TILT ON CARDS
+// ═══════════════════════════════════════════════════════
+document.querySelectorAll('.card-3d').forEach(card=>{
+  card.addEventListener('mousemove',e=>{
+    const r=card.getBoundingClientRect();
+    const x=(e.clientX-r.left)/r.width-0.5;
+    const y=(e.clientY-r.top)/r.height-0.5;
+    card.style.transform=`perspective(900px) rotateY(${x*7}deg) rotateX(${-y*5}deg) translateZ(8px)`;
+    card.style.boxShadow=`${-x*20}px ${-y*15}px 40px rgba(0,0,0,0.5), 0 8px 30px rgba(0,0,0,0.4), ${x>0?'':''}0 0 30px rgba(46,139,69,0.15)`;
+  });
+  card.addEventListener('mouseleave',()=>{
+    card.style.transform='perspective(900px) rotateY(0) rotateX(0) translateZ(0)';
+    card.style.boxShadow='';
+  });
+});
+
+// ═══════════════════════════════════════════════════════
+//  VOICE ENGINE — FIXED
+// ═══════════════════════════════════════════════════════
+const synth=window.speechSynthesis;
+let urduVoice=null;
+let isSpeaking=false;
+let voiceReady=false;
+
+// Priority: ur-PK → ur → hi-IN → any
+function pickBestVoice(voices){
+  return voices.find(v=>v.lang==='ur-PK')
+    || voices.find(v=>v.lang==='ur')
+    || voices.find(v=>v.lang.startsWith('ur'))
+    || voices.find(v=>v.lang==='hi-IN')
+    || voices.find(v=>v.lang.startsWith('hi'))
+    || voices[0]||null;
+}
+
+function loadVoices(){
+  const vv=synth.getVoices();
+  if(vv.length===0) return;
+  urduVoice=pickBestVoice(vv);
+  voiceReady=true;
+  const pill=document.getElementById('voiceStatusPill');
+  const dot=document.getElementById('voiceDot');
+  const txt=document.getElementById('voiceStatusText');
+  const vtName=document.getElementById('vtName');
+  const vtSub=document.getElementById('vtSub');
+  if(urduVoice){
+    pill.classList.add('ready');
+    dot.style.background='#4CAF50';
+    dot.style.boxShadow='0 0 6px #4CAF50';
+    txt.textContent='آواز تیار ✓';
+    const isUrdu=urduVoice.lang.startsWith('ur');
+    vtName.textContent='🔊 '+(isUrdu?'اردو آواز دستیاب ہے':'آواز دستیاب ہے: '+urduVoice.name);
+    vtSub.textContent=urduVoice.name+' — '+urduVoice.lang+(isUrdu?'':' (اردو آواز نہیں ملی، متبادل استعمال ہو گا)');
+  }
+}
+
+// Chrome loads voices async
+if(synth){
+  synth.onvoiceschanged=loadVoices;
+  loadVoices(); // immediate attempt (Firefox)
+  // Retry a few times for safety
+  setTimeout(loadVoices,500);
+  setTimeout(loadVoices,1500);
+  setTimeout(loadVoices,3000);
+}
+
+function speakText(text,label){
+  if(!synth){showVoiceErr();return}
+  synth.cancel();
+  setTimeout(()=>{  // small delay after cancel
+    const u=new SpeechSynthesisUtterance(text);
+    if(urduVoice) u.voice=urduVoice;
+    u.lang='ur-PK';
+    u.rate=0.82;
+    u.pitch=1.05;
+    u.volume=1;
+
+    u.onstart=()=>{
+      isSpeaking=true;
+      document.getElementById('speakBar').classList.add('show');
+      document.getElementById('barText').textContent='🔊 '+(label||'آواز چل رہی ہے...');
+      document.getElementById('voiceStatusPill').classList.add('speaking');
+      document.getElementById('voiceDot').style.background='var(--gold)';
+      document.getElementById('voiceDot').style.boxShadow='0 0 8px var(--gold)';
+      document.getElementById('voiceStatusText').textContent='🔊 بول رہا ہے...';
+      updateVabBtn(true);
+    };
+    u.onend=()=>onSpeakEnd();
+    u.onerror=(e)=>{
+      if(e.error==='interrupted'||e.error==='canceled') return;
+      onSpeakEnd();
+      showVoiceErr(e.error);
+    };
+    synth.speak(u);
+    // Chrome bug workaround: resume if paused
+    setTimeout(()=>{if(synth.paused)synth.resume()},100);
+  },80);
+}
+
+function onSpeakEnd(){
+  isSpeaking=false;
+  document.getElementById('speakBar').classList.remove('show');
+  const pill=document.getElementById('voiceStatusPill');
+  pill.classList.remove('speaking');
+  loadVoices(); // restore status
+  updateVabBtn(false);
+}
+
+function stopSpeech(){
+  synth&&synth.cancel();
+  onSpeakEnd();
+}
+
+function showVoiceErr(err){
+  const sub=document.getElementById('vtSub');
+  sub.textContent='⚠️ خرابی: '+(err||'آواز نہیں چلی')+'۔ Chrome براؤزر استعمال کریں۔';
+  sub.style.color='#EF9A9A';
+}
+
+function testVoice(){
+  speakText('السلام علیکم! فصل AI آواز تیار ہے۔ نتیجہ اب آواز میں سنا جائے گا۔','آواز آزمائی جا رہی ہے');
+}
+
+function buildSpeechScript(r){
+  const sl={severe:'شدید',moderate:'درمیانہ',mild:'ہلکا',healthy:'صحت مند'};
+  const sev=sl[r.severity]||r.severity||'';
+  const treats=(r.treatments||[]).slice(0,3).join('۔ ');
+  let t='';
+  if(r.cropName) t+=`آپ کی فصل ${r.cropName} ہے۔ `;
+  t+=`بیماری: ${r.diseaseName||'نامعلوم'}۔ یہ ${sev} درجے کی بیماری ہے۔ `;
+  if(r.whatItIs) t+=r.whatItIs+'۔ ';
+  if(r.whatItDoes) t+='نقصان: '+r.whatItDoes+'۔ ';
+  if(treats) t+='علاج: '+treats+'۔ ';
+  if(r.prevention) t+='بچاؤ: '+r.prevention;
+  return t;
+}
+
+function updateVabBtn(speaking){
+  const b=document.getElementById('vabBtn');
+  if(!b) return;
+  b.classList.toggle('speaking',speaking);
+  b.textContent=speaking?'⏹ بند کریں':'🔊 نتیجہ سنیں';
+}
+
+// ═══════════════════════════════════════════════════════
+//  SPEECH RECOGNITION (MIC)
+// ═══════════════════════════════════════════════════════
+const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+let rec=null,listening=false;
+
+const CROPS={
+  'گندم':'گندم','wheat':'گندم','gandum':'گندم',
+  'چاول':'چاول','rice':'چاول','dhan':'چاول','dhaan':'چاول',
+  'مکئی':'مکئی','maize':'مکئی','corn':'مکئی','makkai':'مکئی',
+  'کپاس':'کپاس','cotton':'کپاس','kapas':'کپاس',
+  'ٹماٹر':'ٹماٹر','tomato':'ٹماٹر','tamatar':'ٹماٹر',
+  'آلو':'آلو','potato':'آلو','aloo':'آلو',
+  'گنا':'گنا','sugarcane':'گنا','ganna':'گنا','گنّا':'گنا',
+  'سرسوں':'سرسوں','mustard':'سرسوں','sarson':'سرسوں',
+  'چنا':'چنا','chickpea':'چنا','chana':'چنا',
+  'پیاز':'پیاز','onion':'پیاز','pyaz':'پیاز','pyaaz':'پیاز',
+  'آم':'آم','mango':'آم','aam':'آم',
+  'کیلا':'کیلا','banana':'کیلا','kela':'کیلا',
+  'مرچ':'مرچ','chilli':'مرچ','mirch':'مرچ','pepper':'مرچ',
+};
+
+function showMicMsg(txt,color){
+  const el=document.getElementById('micMsg');
+  el.textContent=txt;el.style.color=color;
+}
+
+if(SR){
+  rec=new SR();
+  rec.lang='ur-PK';rec.interimResults=false;rec.maxAlternatives=6;
+
+  rec.onresult=e=>{
+    const alts=Array.from(e.results[0]);
+    let found=null;
+    for(const a of alts){
+      const t=a.transcript.trim().toLowerCase();
+      for(const k of Object.keys(CROPS)){
+        if(t.includes(k.toLowerCase())){found=CROPS[k];break}
+      }
+      if(found) break;
+    }
+    endListening();
+    if(found){
+      document.getElementById('cropType').value=found;
+      showMicMsg('✅ پہچانا: '+found,'#A5D6A7');
+      speakText(found+' — پہچان لیا گیا۔','فصل پہچانی');
+      setTimeout(()=>showMicMsg('',''),3000);
+    } else {
+      const h=alts[0]?.transcript||'';
+      showMicMsg(`❌ نہیں پہچانا: "${h}" — دوبارہ کوشش کریں`,'#EF9A9A');
+      setTimeout(()=>showMicMsg('',''),4000);
+    }
+  };
+  rec.onerror=e=>{
+    endListening();
+    const msgs={
+      'not-allowed':'❌ مائیک کی اجازت دیں',
+      'no-speech':'❌ آواز نہیں سنائی — دوبارہ بولیں',
+      'network':'❌ انٹرنیٹ کنکشن کا مسئلہ',
+    };
+    showMicMsg(msgs[e.error]||'❌ خرابی — دوبارہ کوشش کریں','#EF9A9A');
+    setTimeout(()=>showMicMsg('',''),4000);
+  };
+  rec.onend=()=>{if(listening)endListening()};
+
+  document.getElementById('micBtn').addEventListener('click',()=>{
+    listening?endListening():startListening();
+  });
+}else{
+  document.getElementById('micBtn').addEventListener('click',()=>{
+    showMicMsg('⚠️ Chrome براؤزر استعمال کریں برائے آواز سہولت','#FFD54F');
+  });
+}
+
+function startListening(){
+  listening=true;
+  const btn=document.getElementById('micBtn');
+  btn.classList.add('listening');btn.textContent='🛑';
+  showMicMsg('🎙️ سن رہا ہوں... فصل کا نام بولیں','#90CAF9');
+  try{rec.start()}catch(e){}
+}
+function endListening(){
+  listening=false;
+  const btn=document.getElementById('micBtn');
+  btn.classList.remove('listening');btn.textContent='🎤';
+  try{rec.stop()}catch(e){}
+}
+
+// ═══════════════════════════════════════════════════════
+//  AUTO-SPEAK TOGGLE
+// ═══════════════════════════════════════════════════════
+const autoLabel=document.getElementById('autoLabel');
+const autoCheck=document.getElementById('autoCheck');
+autoLabel.addEventListener('click',()=>{
+  autoCheck.checked=!autoCheck.checked;
+  autoLabel.classList.toggle('on',autoCheck.checked);
+  if(autoCheck.checked) speakText('خودکار آواز چالو ہو گئی۔','');
+});
+
+// ═══════════════════════════════════════════════════════
+//  FILE HANDLING
+// ═══════════════════════════════════════════════════════
+let b64=null,mime='image/jpeg';
+const dropzone=document.getElementById('dropzone');
+const fileInput=document.getElementById('fileInput');
+const camInput=document.getElementById('camInput');
+const previewArea=document.getElementById('previewArea');
+const previewImg=document.getElementById('previewImg');
+const captureRow=document.getElementById('captureRow');
+const resultsPanel=document.getElementById('resultsPanel');
+const analyzeBtn=document.getElementById('analyzeBtn');
+
+dropzone.addEventListener('dragover',e=>{e.preventDefault();dropzone.classList.add('drag-over')});
+dropzone.addEventListener('dragleave',()=>dropzone.classList.remove('drag-over'));
+dropzone.addEventListener('drop',e=>{e.preventDefault();dropzone.classList.remove('drag-over');e.dataTransfer.files[0]&&handleFile(e.dataTransfer.files[0])});
+fileInput.addEventListener('change',()=>fileInput.files[0]&&handleFile(fileInput.files[0]));
+camInput.addEventListener('change',()=>camInput.files[0]&&handleFile(camInput.files[0]));
+
+function handleFile(f){
+  if(!f.type.startsWith('image/')){alert('براہ کرم تصویر اپلوڈ کریں');return}
+  mime=f.type||'image/jpeg';
+  const r=new FileReader();
+  r.onload=e=>{
+    b64=e.target.result.split(',')[1];
+    previewImg.src=e.target.result;
+    dropzone.style.display='none';
+    captureRow.style.display='none';
+    previewArea.classList.add('show');
+    resultsPanel.innerHTML=`<div class="empty-state"><div class="empty-icon">📸</div><div class="empty-title">تصویر تیار ہے</div><p class="empty-sub">"بیماری پہچانیں" بٹن دبائیں</p></div>`;
+    if(autoCheck.checked) speakText('تصویر تیار ہے۔ بیماری پہچانیں بٹن دبائیں۔','');
+  };
+  r.readAsDataURL(f);
+}
+
+document.getElementById('retakeBtn').addEventListener('click',()=>{
+  stopSpeech();b64=null;
+  fileInput.value='';camInput.value='';
+  previewArea.classList.remove('show');
+  dropzone.style.display='';captureRow.style.display='';
+  resultsPanel.innerHTML=emptyHTML();
+});
+
+function emptyHTML(){
+  return`<div class="empty-state"><div class="empty-icon">🌾</div><div class="empty-title">تصویر کا انتظار ہے</div><p class="empty-sub">اپنی فصل کی تصویر اپلوڈ کریں<br>AI فوری تشخیص کرے گا<br><br>🔊 نتیجہ آواز میں بھی سن سکتے ہیں</p></div>`;
+}
+
+// ═══════════════════════════════════════════════════════
+//  API KEY
+// ═══════════════════════════════════════════════════════
+let _apiKey='';
+function saveKey(){
+  _apiKey=document.getElementById('apiKeyInput').value.trim();
+  if(_apiKey){document.getElementById('apiOk').style.display='inline'}
+}
+function getKey(){return _apiKey;}
+
+// ═══════════════════════════════════════════════════════
+//  ANALYSIS
+// ═══════════════════════════════════════════════════════
+let lastResult=null;
+analyzeBtn.addEventListener('click',analyze);
+
+async function analyze(){
+  if(!b64) return;
+  if(!getKey()){alert('براہ کرم پہلے API Key درج کریں اور محفوظ کریں');return;}
+  stopSpeech();
+  const crop=document.getElementById('cropType').value;
+
+  analyzeBtn.disabled=true;
+  analyzeBtn.classList.add('loading');
+  analyzeBtn.innerHTML='<span class="spinner"></span>تجزیہ ہو رہا ہے...';
+  if(autoCheck.checked) speakText('تجزیہ ہو رہا ہے۔ انتظار کریں۔','');
+
+  resultsPanel.innerHTML=`<div class="loading-card"><div class="loading-icon">🔬</div><div class="loading-text">AI تجزیہ کر رہا ہے...</div><div class="loading-sub">بیماری کی علامات جانچی جا رہی ہیں<br>چند لمحوں میں نتیجہ آ جائے گا</div></div>`;
+
+  const sys=`آپ ایک ماہر زرعی AI ہیں جو پاکستانی کسانوں کی مدد کرتے ہیں۔ فصل کی تصویر دیکھ کر صرف JSON میں جواب دیں — کوئی اضافی متن نہیں، کوئی markdown نہیں۔
+
+JSON ڈھانچہ:
+{
+  "cropName": "فصل کا نام اردو میں",
+  "diseaseName": "بیماری کا نام اردو میں یا 'صحت مند فصل'",
+  "scientificName": "scientific name in English or empty",
+  "severity": "healthy|mild|moderate|severe",
+  "confidence": 85,
+  "whatItIs": "یہ بیماری کیا ہے — 2 جملوں میں اردو میں",
+  "whatItDoes": "یہ فصل کو کیا نقصان پہنچاتی ہے — 2 جملوں میں اردو میں",
+  "symptoms": ["علامت ۱","علامت ۲","علامت ۳","علامت ۴"],
+  "treatments": ["علاج ۱","علاج ۲","علاج ۳","علاج ۴"],
+  "prevention": "بچاؤ کا طریقہ — 2 جملوں میں اردو میں"
+}`;
+
+  const ut=crop?`یہ ${crop} کی فصل ہے۔ بیماری تشخیص کریں اور صرف JSON میں جواب دیں۔`
+    :`اس فصل میں بیماری تشخیص کریں اور صرف JSON میں جواب دیں۔`;
+
+  try{
+    const res=await fetch('https://api.anthropic.com/v1/messages',{
+      method:'POST',
+      headers:{'Content-Type':'application/json','x-api-key':getKey(),'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
+      body:JSON.stringify({
+        model:'claude-sonnet-4-20250514',
+        max_tokens:1200,
+        system:sys,
+        messages:[{role:'user',content:[
+          {type:'image',source:{type:'base64',media_type:mime,data:b64}},
+          {type:'text',text:ut}
+        ]}]
+      })
+    });
+    if(!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data=await res.json();
+    const raw=data.content.filter(b=>b.type==='text').map(b=>b.text).join('');
+    const clean=raw.replace(/```json|```/g,'').trim();
+    const result=JSON.parse(clean);
+    lastResult=result;
+    renderResult(result);
+    if(autoCheck.checked) setTimeout(()=>speakResult(result),700);
+  }catch(err){
+    resultsPanel.innerHTML=`<div class="error-box">⚠️ <strong>خرابی ہوئی۔</strong> ${err.message}<br>دوبارہ کوشش کریں۔</div>`;
+    if(autoCheck.checked) speakText('خرابی ہوئی۔ دوبارہ کوشش کریں۔','');
+  }finally{
+    analyzeBtn.disabled=false;
+    analyzeBtn.classList.remove('loading');
+    analyzeBtn.innerHTML='🔬 بیماری پہچانیں';
+  }
+}
+
+function speakResult(r){
+  speakText(buildSpeechScript(r),r.diseaseName+' کی تشخیص');
+}
+
+function toggleSpeak(){
+  isSpeaking?stopSpeech():(lastResult&&speakResult(lastResult));
+}
+
+// ═══════════════════════════════════════════════════════
+//  RENDER RESULT
+// ═══════════════════════════════════════════════════════
+function renderResult(r){
+  const sev=r.severity||'moderate';
+  const conf=Math.min(100,Math.max(0,parseInt(r.confidence)||80));
+  const sl={severe:'شدید',moderate:'درمیانہ',mild:'ہلکا',healthy:'صحت مند'};
+  const sevLbl=sl[sev]||sev;
+  const dotC=sev==='severe'?'#EF9A9A':sev==='moderate'?'#FFD54F':'#A5D6A7';
+
+  const syms=(r.symptoms||[]).map(s=>`<span class="sym-tag ${sev}">${s}</span>`).join('');
+  const treats=(r.treatments||[]).map((t,i)=>
+    `<li><div class="step-num">${i+1}</div><span>${t}</span></li>`).join('');
+
+  resultsPanel.innerHTML=`
+    <div class="disease-card" id="diseaseCard">
+      <div class="vab">
+        <span class="vab-label">🔊 نتیجہ آواز میں سنیں — ایک بٹن دبائیں</span>
+        <button class="vab-btn" id="vabBtn" onclick="toggleSpeak()">🔊 نتیجہ سنیں</button>
+      </div>
+
+      <div class="disease-banner ${sev}">
+        <div class="dname-block">
+          <div class="dname">${r.diseaseName||'نامعلوم'}</div>
+          ${r.scientificName?`<div class="dsci">${r.scientificName}</div>`:''}
+        </div>
+        <span class="sev-badge">${sevLbl}</span>
+      </div>
+
+      <div class="conf-wrap ${sev}">
+        <div class="conf-row"><span>AI اعتماد</span><span style="font-family:'DM Sans',sans-serif">${conf}%</span></div>
+        <div class="conf-bg"><div class="conf-fill" style="width:${conf}%"></div></div>
+      </div>
+
+      ${r.cropName?`<div class="rs"><div class="rs-lbl"><div class="rs-dot" style="background:${dotC}"></div>پہچانی گئی فصل</div><div class="rs-txt">${r.cropName}</div></div>`:''}
+
+      <div class="rs"><div class="rs-lbl"><div class="rs-dot" style="background:${dotC}"></div>یہ بیماری کیا ہے؟</div><div class="rs-txt">${r.whatItIs||'—'}</div></div>
+      <div class="rs"><div class="rs-lbl"><div class="rs-dot" style="background:#EF9A9A"></div>فصل کو کیا نقصان؟</div><div class="rs-txt">${r.whatItDoes||'—'}</div></div>
+      <div class="rs"><div class="rs-lbl"><div class="rs-dot" style="background:${dotC}"></div>علامات</div><div class="sym-tags">${syms}</div></div>
+      <div class="rs"><div class="rs-lbl"><div class="rs-dot" style="background:#A5D6A7"></div>علاج کے اقدامات</div><ul class="treat-list">${treats}</ul></div>
+
+      ${r.prevention?`<div class="rs" style="background:rgba(46,139,69,0.06)"><div class="rs-lbl"><div class="rs-dot" style="background:#4CAF65"></div>بچاؤ کا طریقہ</div><div class="rs-txt">${r.prevention}</div></div>`:''}
+    </div>
+
+    <div class="disc"><p>⚠️ یہ AI تشخیص صرف رہنمائی کے لیے ہے۔ اہم فیصلوں کے لیے زرعی ماہر یا محکمہ زراعت سے رابطہ کریں۔</p></div>
+  `;
+
+  // Apply 3D tilt to result card too
+  const dc=document.getElementById('diseaseCard');
+  if(dc){
+    dc.addEventListener('mousemove',e=>{
+      const rect=dc.getBoundingClientRect();
+      const x=(e.clientX-rect.left)/rect.width-0.5;
+      const y=(e.clientY-rect.top)/rect.height-0.5;
+      dc.style.transform=`perspective(900px) rotateY(${x*5}deg) rotateX(${-y*4}deg) translateZ(6px)`;
+    });
+    dc.addEventListener('mouseleave',()=>{dc.style.transform='';});
+  }
+}
+</script>
+</body>
+</html>
